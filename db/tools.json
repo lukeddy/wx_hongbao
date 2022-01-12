@@ -1,0 +1,16 @@
+{
+  "_id": "73f70d5c5fdb3fc8000c2312795782b3",
+  "title": "工具",
+  "coupon": [
+      {
+          "name": "免费证件照",
+          "icon": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/zhengjianzhao.jpeg",
+          "bannerPic": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/banner9.png",
+          "type": 1,
+          "minapp": {
+              "appid": "wx063f19ef77a02564",
+              "path": "pages/index/index"
+          }
+      }
+  ]
+}

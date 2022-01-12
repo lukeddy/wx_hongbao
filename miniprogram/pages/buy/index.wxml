@@ -1,0 +1,24 @@
+<view class="buy">
+  <view class="buy_top">
+    <view class="buy_title">
+    点击红包获取淘宝粉丝福利专属优惠劵(需播放完广告)
+  </view>
+ <van-image bindtap="play" width="100" height="100" src="cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/buy1.jpeg" />
+  </view>
+
+  <view class="buy_text" wx:if="{{look}}">
+    <van-divider
+    customStyle="color: #1989fa; border-color: #1989fa; font-size: 12px;"
+      contentPosition="center">复制下面文案，打开淘宝即可领取专属优惠劵</van-divider>
+    <view class="text_info">
+        {{text}}
+    </view>
+    <van-button disabled="{{text?false:true}}" bind:click="copy" size="small" type="info">复制链接</van-button>
+  </view>
+  <van-toast id="van-toast" />
+  <van-overlay show="{{ loading }}">
+    <view class="content_wrapper">
+      <van-loading type="spinner" custom-class="content_loading">提交中...</van-loading>
+    </view>
+  </van-overlay>
+</view>

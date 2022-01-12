@@ -1,0 +1,55 @@
+/* 样式 */
+page {
+  background-color: #f8f8f8;
+}
+
+.container {
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+  padding: 20rpx;
+}
+
+.container .top {
+  margin-top: 20rpx;
+}
+
+.container .top button {
+  width: 160rpx;
+}
+
+.container .tip {
+  margin-top: 20rpx;
+}
+
+.middle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20rpx;
+}
+
+.middle_act {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+
+
+.van-dialog__button {
+  width: 50%;
+}
+
+.content_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content_loading {
+  width: 120px;
+  height: 120px;
+}

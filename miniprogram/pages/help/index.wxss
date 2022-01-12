@@ -1,0 +1,9 @@
+/* pages/read/index.wxss */
+.container .help_name{
+ 
+  display: flex;
+  justify-content: center;
+}
+.adcontent{
+  width: 100%;
+}

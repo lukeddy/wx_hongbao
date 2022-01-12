@@ -1,0 +1,4 @@
+<view class="content">
+  <video bindplay="play" id="video1"
+    src="cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/video1.mp4"></video>
+</view>

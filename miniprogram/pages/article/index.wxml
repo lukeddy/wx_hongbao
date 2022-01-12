@@ -1,0 +1,31 @@
+<!-- miniprogram/pages/index/index.wxml -->
+<van-notice-bar left-icon="volume-o"  text="只支持公众号（公众号要关联此小程序）的文章" />
+<view class="container_article">
+    <view class="article_add">
+        <van-button type="primary" bind:click="showAdd">添加文章</van-button>
+    </view>
+    <view class="article_ad">
+        <ad unit-id="adunit-b75f1aa7246b9d0c"></ad>
+    </view>
+    <view class="article_list">
+        <van-cell-group>
+            <van-cell data-id="{{item.id}}" data-src="{{item.src}}" wx:key="index" wx:for="{{list}}" center title="{{item.name}}" value="内容" is-link
+                label="{{item.label}}" bind:click="jump"  />
+        </van-cell-group>
+    </view>
+</view>
+<van-dialog use-slot title="增加文章链接" show="{{ show }}" show-cancel-button bind:close="onClose" bind:confirm="add">
+    <view class="sale_dialog">
+        <van-cell-group>
+            <van-field label="文章名称" value="{{name}}" placeholder="输入文章名称" border="{{ false }}"
+                bind:change="changeName" />
+            <van-field label="地址" value="{{src}}" placeholder="输入文章地址" border="{{ false }}" bind:change="changeSrc" />
+        </van-cell-group>
+    </view>
+</van-dialog>
+<van-overlay show="{{ loading }}">
+    <view class="content_wrapper">
+        <van-loading type="spinner" custom-class="content_loading">提交中...</van-loading>
+    </view>
+</van-overlay>
+<van-toast id="van-toast" />

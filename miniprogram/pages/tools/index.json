@@ -1,0 +1,11 @@
+{
+    "usingComponents": {
+        "van-loading": "../../components/dist/loading",
+        "van-button": "../../components/dist/button/index",
+        "van-toast": "../../components/dist/toast",
+        "van-notice-bar": "../../components/dist/notice-bar/index",
+        "van-overlay": "../../components/dist/overlay/index",
+        "van-cell": "../../components/dist/cell/index",
+        "van-field": "../../components/dist/field"
+    }
+}

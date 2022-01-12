@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-image": "../../components/dist/image/index",
+    "van-divider": "../../components/dist/divider/index",
+    "van-loading": "../../components/dist/loading/index",
+    "van-overlay": "../../components/dist/overlay/index",
+    "van-button": "../../components/dist/button"
+  }
+}

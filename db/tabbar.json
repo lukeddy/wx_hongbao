@@ -1,0 +1,26 @@
+{
+  "_id": "b00064a7604c06f009b9efab75e220e4",
+  "list": [
+    {
+      "icon": "bill-o",
+      "text": "领红包",
+      "url": "/pages/index/index",
+      "name": "home",
+      "show":true
+    },
+    {
+      "icon": "apps-o",
+      "text": "抖音去水印",
+      "url": "/pages/tools/index",
+      "show":true,
+      "name": "tools"
+    },
+    {
+      "icon": "manager-o",
+      "text": "我的",
+      "url": "/pages/user/index",
+      "show":true,
+      "name": "user"
+    }
+  ]
+}

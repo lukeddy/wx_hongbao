@@ -1,0 +1,31 @@
+<view class="container">
+  <!-- <view class="userinfo">
+    <van-button icon="user-circle-o" custom-style="width:200rpx;margin:0 0 0 50rpx" round
+      wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" plain type="info" color="hsl(179, 89%, 38%)"
+      bindgetuserinfo="getUserProfile"> 登录 </van-button>
+    <view wx:else class="info">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="info_name">{{userInfo.nickName}}</text>
+    </view>
+  </view> -->
+  <view class="userinfo">
+    <block wx:if="{{!hasUserInfo}}">
+      <van-button icon="user-circle-o" custom-style="width:200rpx;margin:0 0 0 50rpx" round wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 登录 </van-button>
+      <van-button icon="user-circle-o" custom-style="width:200rpx;margin:0 0 0 50rpx" round wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </van-button>
+    </block>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="content">
+    <!-- <van-cell-group>
+      <van-cell title="领外卖红包" icon="bill-o" is-link bind:click="getHongbao" />
+    </van-cell-group> -->
+    <van-cell-group>
+      <van-cell title="证件照制作" icon="user-o" is-link bind:click="getPhoto" />
+    </van-cell-group>
+  </view>
+
+  <van-toast id="van-toast" />
+</view>

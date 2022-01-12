@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/article/index",
+    "pages/user/index",
+    "pages/tools/index",
+    "pages/buy/index",
+    "pages/read/index",
+    "pages/help/index"
+  ],
+  "tabBar": {
+		"custom": true,
+		"list": [
+			{
+				"pagePath": "pages/index/index"
+      },
+      {
+				"pagePath": "pages/tools/index"
+      },
+			{
+				"pagePath": "pages/user/index"
+      }
+		]
+	},
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "皇仓放粮",
+    "navigationBarBackgroundColor": "#0bb9b6",
+    "backgroundColor": "#FFFFFF",
+    "titleView": false
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

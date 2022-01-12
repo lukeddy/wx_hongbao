@@ -1,0 +1,124 @@
+{
+    "_id": "fc5ac5c95fbd0bf9003d301f646b7191",
+    "title": "饿了么",
+    "coupon": [
+        {
+            "name": "最高20无门槛",
+            "type": 1.0,
+            "url": "",
+            "bannerPic": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/banner1.jpeg",
+            "icon": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/ele.png",
+            "minapp": {
+                "appid": "wxece3a9a4c82f58c9",
+                "path": "taoke/pages/shopping-guide/index?scene=uH8D4ou"
+            }
+        },
+        {
+            "name": "5折下午茶",
+            "type": 1.0,
+            "url": "",
+            "bannerPic": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/xiawucha.png",
+            "icon": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/ele.png",
+            "minapp": {
+                "appid": "wxece3a9a4c82f58c9",
+                "path": "taoke/pages/shopping-guide/index?scene=https://s.click.ele.me/d8cWsnu"
+            }
+        },
+        {
+            "name": "大额满减劵",
+            "type": 1.0,
+            "url": "",
+            "bannerPic": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/dae.jpg",
+            "icon": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/ele.png",
+            "minapp": {
+                "appid": "wxece3a9a4c82f58c9",
+                "path": "pages/sharePid/web/index?scene=https://s.click.ele.me/MWxC4ou"
+            }
+        },
+        {
+            "bannerPic": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/banner2.png",
+            "minapp": {
+                "appid": "wxece3a9a4c82f58c9",
+                "path": "pages/sharePid/web/index?scene=https://s.click.ele.me/naOTAou"
+            },
+            "name": "商超限量",
+            "type": 1.0,
+            "icon": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/ele.png",
+            "url": ""
+        }
+    ]
+}
+{
+    "_id": "915cc8ab5fbbb6f50034354a4d9a4a78",
+    "title": "美团",
+    "coupon": [
+        {
+            "name": "外卖重磅红包",
+            "icon": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/meituan.png",
+            "bannerPic": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/banner4.jpg",
+            "type": 1,
+            "minapp": {
+                "appid": "wxde8ac0a21135c07d",
+                "path": "/index/pages/h5/h5?weburl=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3dXuqV0qcAf-r-KCvHdXiNdKyVFMZCFoDQ11cZBvXQf3I-7xpbKTNcTxVvtWCZ6vqsjMGOmbSLlSmJUDKTsLYRwfQYNd6muM4I17lvwA2lPeidR4xYqK8pvYIFvJsr7VdL_iRbZeacSzN7a8yilj2JqlspvUCB2Q18wVws8NgV4cNyqqAj1Anj25KCGjX-dwbqYU7LJ1xuIZFYpZ_FDoFRhwwhm48Mr70VMkt-Pusz0GGKNpErWDXS-ypWr7HhEvuKEDUSzEMiap9-gjB_XgdadtYrMnR6qWV2w8Hdbi7ZCQyar9DaJ_TWeMeEd3OwjE4ctkiMcHWjPw0PPkSkwNdfayXEfPZaaGEh8yfpw0a5InZFlhVe4_35BQL09iOcESQWZ1BQ62x37OTqwTfAjQGi1OJiR2Izbh3d_q5GP-0T5QS4GK0uiPCeJv-IW1oEPGg29xkPyw_792vh1EKvQEjh2LppFfvjyibjAHekBKdpZjPUOPNxZXhUywtwJLUp5s7vjtLhsNEM-JNHGn26n8MvlFaJ46FP7dhk_TCRZp8SubR4d3gMAiqODsznEpxe6u3TPH9YIO02-7dU-n7YcaER0P88yGfBVLlnUvLeYx0WHDSZNAANvQP10LImSpunuIqeTAy1HHMrkm_9rBnsk-QFynMgNoHCHpCXnVdPQjtQJz&lch=cps:waimai:5:63d818920787cd4ab953b22e9c952f82:yetingmao:2:93288&f_token=1&f_userId=1"
+            }
+        },
+        {
+            "name": "商超生鲜红包",
+            "icon": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/meituan.png",
+            "bannerPic": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/banner3.jpg",
+            "type": 1,
+            "minapp": {
+                "appid": "wxde8ac0a21135c07d",
+                "path": "/index/pages/h5/h5?weburl=https%3A%2F%2Frunion.meituan.com%2Furl%3Fkey%3D63d818920787cd4ab953b22e9c952f82%26url%3Dhttps%253A%252F%252Fi.meituan.com%252Fawp%252Fhfe%252Fblock%252Fc9ff59b58f6f5bf385b6%252F94455%252Findex.html%253Fappkey%253D63d818920787cd4ab953b22e9c952f82%253Ayetingmao%26sid%3Dyetingmao&lch=cps:waimai:5:63d818920787cd4ab953b22e9c952f82:yetingmao&f_token=1&f_userId=1"
+            }
+        }
+    ]
+}
+{
+    "_id": "4fb129165fc1ba0b007aa0ac6401caf1",
+    "title": "打车",
+    "coupon": [
+        {
+            "name": "滴滴出行券",
+            "icon": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/didi.jpg",
+            "bannerPic": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/banner5.jpeg",
+            "type": 1,
+            "minapp": {
+                "appid": "wxaf35009675aa0b2a",
+                "path": "passenger-recommend/views/homepage/index?scene=14&channel_id=1100000090&fromCoupon=self&share_level=1&first_uid=299067250186250&root_dchn=w0WWXX&share_uid=299067250186250&template=1"
+            }
+        }
+    ]
+}
+{
+    "_id": "73f70d5c5fdb3fc8000c2312795782b1",
+    "title": "买菜",
+    "coupon": [
+        {
+            "name": "橙心优选",
+            "icon": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/cx.jpeg",
+            "bannerPic": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/banner7.jpeg",
+            "type": 1,
+            "minapp": {
+                "appid": "wxd7fa7df243b05aed",
+                "path": "pages/webx/index?entrance_channel=60051&channel=60051&root_xpsid=7f3870de83ad48d0ad4b004eb8a80a6f&share_source_id=60052&dchn=nLAEd3&channel_id=60051&biz_channel_id=666005&origin=&f_xpsid=7f3870de83ad48d0ad4b004eb8a80a6f&trace_id=0a5681276043459aab3c78b508a95502&page=invitee&xpsid=7f3870de83ad48d0ad4b004eb8a80a6f&share_code=c0nnfh7okuf0v8uhueog00"
+            }
+        }
+    ]
+}
+{
+    "_id": "73f70d5c5fdb3fc8000c2312795782b2",
+    "title": "电影",
+    "coupon": [
+        {
+            "name": "优惠购票",
+            "icon": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/dianying.jpeg",
+            "bannerPic": "cloud://hongbao-1g1vxdep2e9a4001.686f-hongbao-1g1vxdep2e9a4001-1304791238/banner8.jpeg",
+            "type": 1,
+            "minapp": {
+                "appid": "wx75a18bf82ff322eb",
+                "path": "pages/index/index?share_user_id=278321"
+            }
+        }
+    ]
+}

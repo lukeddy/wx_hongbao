@@ -1,0 +1,10 @@
+/* 样式 */
+page {
+  background-color: #f8f8f8;
+}
+
+.container {
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+}

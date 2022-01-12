@@ -1,0 +1,13 @@
+{
+    "usingComponents": {
+        "van-overlay": "../../components/dist/overlay/index",
+        "van-notice-bar": "../../components/dist/notice-bar",
+        "van-button": "../../components/dist/button/index",
+        "van-dialog": "../../components/dist/dialog",
+        "van-cell": "../../components/dist/cell/index",
+        "van-field": "../../components/dist/field/index",
+        "van-cell-group": "../../components/dist/cell-group/index",
+        "van-toast": "../../components/dist/toast",
+        "van-loading": "../../components/dist/loading"
+    }
+}

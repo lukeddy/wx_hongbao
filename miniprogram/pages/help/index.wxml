@@ -1,0 +1,16 @@
+<view class="container">
+  <ad unit-id="adunit-f30a61b7661a529d" ad-type="video" ad-theme="white"></ad>
+  <van-collapse accordion value="{{ activeName }}" bind:change="onChange">
+    <van-collapse-item title="使用步骤" name="1">
+      <van-steps steps="{{ steps }}" direction="vertical" active="{{3}}" />
+    </van-collapse-item>
+    <van-collapse-item title="提取后还有水印" name="2">
+      理论上提取的视频与原视频一致，如果原视频本身就有水印，则我们提取后同样也有水印
+    </van-collapse-item>
+    <van-collapse-item title="联系人工客服" name="3">
+      <view class="help_name">
+        <van-image width="10rem" height="10rem" fit="contain" src="{{url}}" />
+      </view>
+    </van-collapse-item>
+  </van-collapse>
+</view>
