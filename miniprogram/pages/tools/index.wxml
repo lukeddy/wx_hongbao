@@ -3,7 +3,7 @@
   <view class="top">
     <van-cell-group>
       <van-field value="{{ url }}" center clearable placeholder="请输入视频链接" bind:change="write" use-button-slot>
-        <van-button slot="button" type="primary" bind:click="do">
+        <van-button icon="play-circle-o" slot="button" type="primary" bind:click="do">
           提取
         </van-button>
       </van-field>

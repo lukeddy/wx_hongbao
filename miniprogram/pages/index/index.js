@@ -164,5 +164,12 @@ Page({
             path: this.data.msg.path,
             imageUrl: this.data.msg.imageUrl,
         }
+    },
+    onShareTimeline:function(){
+        return {
+            title: this.data.msg.title,
+            path: this.data.msg.path,
+            imageUrl: this.data.msg.imageUrl,
+        }
     }
 })

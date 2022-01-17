@@ -15,7 +15,7 @@ page {
 }
 
 .container .top button {
-  width: 160rpx;
+  width: 190rpx;
 }
 
 .container .tip {
