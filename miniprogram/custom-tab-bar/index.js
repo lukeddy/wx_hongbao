@@ -4,11 +4,18 @@ Component({
 		active: "home",
 		list: [
 			{
+				"icon": "apps-o",
+				"text": "去抖音水印",
+				"url": "/pages/tools/index",
+				"show":true,
+				"name": "tools"
+			},
+			{
 				icon: 'bill-o',
-				text: '领红包',
+				text: '福利红包',
 				url: '/pages/index/index',
 				name: "home",
-				"show":true,
+				"show":false,
 			},
 			// {
 			// 	"icon": "apps-o",
@@ -37,13 +44,7 @@ Component({
 			// 	"show":true,
 			// 	"name": "video"
 			// },
-			{
-				"icon": "apps-o",
-				"text": "去抖音水印",
-				"url": "/pages/tools/index",
-				"show":true,
-				"name": "tools"
-			},
+			
 			// {
 			// 	icon: 'description',
 			// 	text: '阅读',
@@ -54,6 +55,7 @@ Component({
 				icon: 'manager-o',
 				text: '我的',
 				url: '/pages/user/index',
+				"show":true,
 				name: "user"
 			}
 		]

@@ -4,6 +4,7 @@ import {
   subscribe,
   hasSubscribe
 } from "../../utils/index"
+const db = wx.cloud.database()
 const app = getApp()
 Page({
   /**
@@ -15,6 +16,7 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUseGetUserProfile: true,
+    tabs: [],
   },
 
   /**
@@ -27,13 +29,19 @@ Page({
         hasUserInfo: true
       })
     }
-    console.log(app.globalData.userInfo)
     if (wx.getUserProfile) {
       this.setData({
         canIUseGetUserProfile: true
       })
     }
-    
+    db.collection('coupons').get().then(res => {
+      const tabs = res.data;
+      // tabs.unshift(all)
+      this.setData({
+        tabs
+      });
+      console.log(tabs)
+    })
   },
   getUserProfile(e) {
     // 推荐使用wx.getUserProfile获取用户信息，开发者每次通过该接口获取用户个人信息均需用户确认
@@ -69,15 +77,24 @@ Page({
       },
     })
   },
-  getHongbao() {
+  getHongbao(e) {
+    const t=e.currentTarget.dataset.type;
+    let data = {};
+    const tabs=this.data.tabs;
+    if (t == "1") {
+      data = (tabs[0].coupon)[0].minapp;
+    } else {
+      data = (tabs[1].coupon)[0].minapp;
+    }
     wx.navigateToMiniProgram({
-      appId: "wxfafc40d8f0d823c6",
-      path: "pages/index/index",
+      appId: data.appid,
+      path: data.path,
       success(res) {
         // 打开成功
         console.log('打开成功', res)
       }
     })
+
   },
   getPhoto() {
     wx.navigateToMiniProgram({

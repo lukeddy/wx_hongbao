@@ -3,7 +3,7 @@
   "list": [
     {
       "icon": "bill-o",
-      "text": "领红包",
+      "text": "福利红包",
       "url": "/pages/index/index",
       "name": "home",
       "show":true

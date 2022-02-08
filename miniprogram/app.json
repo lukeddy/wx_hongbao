@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/tools/index",
     "pages/index/index",
     "pages/user/index",
-    "pages/tools/index",
     "pages/help/index"
   ],
   "tabBar": {

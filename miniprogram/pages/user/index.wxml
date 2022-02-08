@@ -19,9 +19,12 @@
     </block>
   </view>
   <view class="content">
-    <!-- <van-cell-group>
-      <van-cell title="领外卖红包" icon="bill-o" is-link bind:click="getHongbao" />
-    </van-cell-group> -->
+    <van-cell-group>
+      <van-cell title="饿了么红包" icon="bill-o" data-type='1' is-link bind:click="getHongbao" />
+    </van-cell-group>
+    <van-cell-group>
+      <van-cell title="美团红包" icon="bill-o" data-type="2" is-link bind:click="getHongbao" />
+    </van-cell-group>
     <van-cell-group>
       <van-cell title="证件照制作" icon="user-o" is-link bind:click="getPhoto" />
     </van-cell-group>
