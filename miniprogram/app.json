@@ -1,24 +1,25 @@
 {
   "pages": [
+    "pages/qrcode/index",
     "pages/tools/index",
     "pages/index/index",
     "pages/user/index",
     "pages/help/index"
   ],
   "tabBar": {
-		"custom": true,
-		"list": [
-			{
-				"pagePath": "pages/index/index"
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/qrcode/index"
       },
       {
-				"pagePath": "pages/tools/index"
+        "pagePath": "pages/tools/index"
       },
-			{
-				"pagePath": "pages/user/index"
+      {
+        "pagePath": "pages/user/index"
       }
-		]
-	},
+    ]
+  },
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "皇仓放粮",
@@ -26,7 +27,6 @@
     "backgroundColor": "#FFFFFF",
     "titleView": false
   },
-
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }

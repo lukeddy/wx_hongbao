@@ -1,6 +1,9 @@
 /* 样式 */
 page {
   background-color: #f8f8f8;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  color: #333;
+  font-size: 26rpx;
 }
 
 .container {

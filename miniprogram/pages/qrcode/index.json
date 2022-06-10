@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "color-picker": "/components/colorPicker/colorPicker",
+    "van-button": "../../components/dist/button/index"
+  }
+}

@@ -4,18 +4,18 @@ Component({
 		active: "home",
 		list: [
 			{
+				icon: 'bill-o',
+				text: '工具',
+				url: '/pages/qrcode/index',
+				name: "home",
+				"show":false,
+			},
+			{
 				"icon": "apps-o",
 				"text": "去抖音水印",
 				"url": "/pages/tools/index",
 				"show":true,
 				"name": "tools"
-			},
-			{
-				icon: 'bill-o',
-				text: '福利红包',
-				url: '/pages/index/index',
-				name: "home",
-				"show":false,
 			},
 			// {
 			// 	"icon": "apps-o",
